@@ -31,6 +31,11 @@
             <optional>true</optional>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
@@ -57,5 +62,17 @@
             </plugin>
         </plugins>
     </build>
-
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>bingkun-internal-releases</id>-->
+<!--            <name>bing kun internal repository for released artifacts</name>-->
+<!--            <url>http://192.168.102.200:8081/nexus/content/repositories/releases/</url>-->
+<!--            <uniqueVersion>true</uniqueVersion>-->
+<!--        </repository>-->
+<!--        <snapshotRepository>-->
+<!--            <id>bingkun-internal-snapshots</id>-->
+<!--            <name>bing kun internal repository for snapshots artifacts</name>-->
+<!--            <url>http://192.168.102.200:8081/nexus/content/repositories/snapshots/</url>-->
+<!--        </snapshotRepository>-->
+<!--    </distributionManagement>-->
 </project>
